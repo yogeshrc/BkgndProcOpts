@@ -7,7 +7,7 @@ Following options are evaluated for hosting long running background operations,
 * Azure Worker Roles [WIP]
 * Azure Web Jobs [WIP]
 * Azure Functions [WIP]
-* Third party libraries like...[yet to identify]
+* Third party libraries like WebBackgrounder, FluentScheduler, Quartz.Net...[more to identify]
 
 ### IIS worker process
 In your Web application (or Web API) project, host your long running task in a thread under Application_Start event of Global.asax.
